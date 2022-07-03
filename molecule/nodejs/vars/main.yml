@@ -6,6 +6,7 @@ asdf_legacy_version_file: "yes"
 asdf_plugins:
   - name: "nodejs"
     repository: ""
+    pre_install: "/bin/echo 'this command runs directly before install'"
     versions:
       - 14.0.0
     global: 14.0.0
